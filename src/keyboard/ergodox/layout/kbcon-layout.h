@@ -12,7 +12,7 @@ ERGODOX_LAYOUT = {
     _(_home),       _(_end),       _(_pageU),       _(_pageD),      S2CAP(_shiftL),
                                                                                     _(_guiL),       _(_altL),
                                                                                                     _(_ctrlL),
-                                                                    _(_ctrlL),      CHORD(1),       _(_shiftL),
+                                                                    CHORD(1),       _(_ctrlL),      _(_shiftL),
     // right hand
     _(_del),        _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          CHORD(9),
     _(_bs),         _(_Y),          _(_U),          _(_I),          _(_O),          _(_P),          _(_dash),
@@ -21,7 +21,7 @@ ERGODOX_LAYOUT = {
                                     S2CAP(_shiftR), _(_arrowL),     _(_arrowD),     _(_arrowU),     _(_arrowR),
     _(_altR),       _(_guiR),
     _(_ctrlR),
-    _(_shiftR),     CHORD(1),       _(_space)
+    _(_shiftR),     _(_bs),         _(_space)
     ),
   ERGODOX_LAYER( // L1: symbols and function
     // left hand
@@ -32,7 +32,7 @@ ERGODOX_LAYOUT = {
     __,             __,             __,             __,             __,
                                                                                     __,             __,
                                                                                                     __,
-                                                                    _(_esc),        _(_bs),         __,
+                                                                    __,             __,             __,
     // right hand
     _(_F12),        _(_F6),         _(_F7),         _(_F8),         _(_F9),         _(_F10),        _(_del),
     __,             S(_6),          S(_7),          S(_8),          S(_backslash),  _(_backslash),  _(_volumeU),
@@ -41,7 +41,7 @@ ERGODOX_LAYOUT = {
                                     __,             __,             __,             __,             __,
     __,             __,
     __,
-    __,             _(_tab),        _(_enter)
+    __,             _(_esc),        _(_enter)
   ),
   ERGODOX_LAYER( // L2: Maltron
     // left hand
