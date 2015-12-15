@@ -5,23 +5,23 @@
 ERGODOX_LAYOUT = {
   ERGODOX_LAYER( // L0: Qwerty
     // left hand
-    _(_esc),        _(_1),          _(_2),          _(_3),          _(_4),          _(_5),          UNUSED,
+    _(_esc),        _(_1),          _(_2),          _(_3),          _(_4),          _(_5),          _(_bracketL),
     _(_equal),      _(_Q),          _(_W),          _(_E),          _(_R),          _(_T),          _(_grave),
     _(_backslash),  _(_A),          _(_S),          _(_D),          _(_F),          _(_G),
-    _(_bracketL),   _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          _(_tab),
-    _(_home),       _(_end),       _(_pageU),       _(_pageD),      S2CAP(_shiftL),
-                                                                                    _(_ctrlL),      _(_altL),
-                                                                                                    _(_shiftL),
-                                                                    CHORD(1),       _(_esc),        _(_guiL),
+    S2CAP(_shiftL), _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          _(_tab),
+    _(_home),       _(_end),       _(_pageU),       _(_pageD),      CHORD(1),
+                                                                                    _(_shiftL),     _(_guiL),
+                                                                                                    _(_altL),
+                                                                    _(_bs),         _(_esc),        _(_ctrlL),
     // right hand
-    UNUSED,         _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          CHORD(9),
+    _(_bracketR),   _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          CHORD(9),
     _(_del),        _(_Y),          _(_U),          _(_I),          _(_O),          _(_P),          _(_dash),
     /*_*/           _(_H),          _(_J),          _(_K),          _(_L),          _(_semicolon),  _(_quote),
-    _(_bs),         _(_N),          _(_M),          _(_comma),      _(_period),     _(_slash),      _(_bracketR),
-                                    S2CAP(_shiftR), _(_arrowL),     _(_arrowD),     _(_arrowU),     _(_arrowR),
-    _(_altR),       _(_ctrlR),
-    _(_shiftR),
-    _(_guiR),       _(_enter),      _(_space)
+    _(_bs),         _(_N),          _(_M),          _(_comma),      _(_period),     _(_slash),      S2CAP(_shiftR),
+                                    CHORD(1),       _(_arrowL),     _(_arrowD),     _(_arrowU),     _(_arrowR),
+    _(_guiR),       _(_shiftR),
+    _(_altR),
+    _(_ctrlR),      _(_enter),      _(_space)
     ),
   ERGODOX_LAYER( // L1: symbols and function
     // left hand
