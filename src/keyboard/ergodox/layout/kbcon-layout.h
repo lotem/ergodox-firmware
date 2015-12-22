@@ -10,18 +10,18 @@ ERGODOX_LAYOUT = {
     _(_backslash),  _(_A),          _(_S),          _(_D),          _(_F),          _(_G),
     S2CAP(_shiftL), _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          _(_tab),
     _(_home),       _(_end),       _(_pageU),       _(_pageD),      CHORD(1),
-                                                                                    _(_shiftL),     _(_guiL),
+                                                                                    _(_shiftL),     _(_ctrlL),
                                                                                                     _(_altL),
-                                                                    _(_bs),         _(_esc),        _(_ctrlL),
+                                                                    _(_bs),         _(_esc),        _(_guiL),
     // right hand
     _(_bracketR),   _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          CHORD(9),
     _(_del),        _(_Y),          _(_U),          _(_I),          _(_O),          _(_P),          _(_dash),
     /*_*/           _(_H),          _(_J),          _(_K),          _(_L),          _(_semicolon),  _(_quote),
     _(_bs),         _(_N),          _(_M),          _(_comma),      _(_period),     _(_slash),      S2CAP(_shiftR),
                                     CHORD(1),       _(_arrowL),     _(_arrowD),     _(_arrowU),     _(_arrowR),
-    _(_guiR),       _(_shiftR),
+    _(_ctrlR),      _(_shiftR),
     _(_altR),
-    _(_ctrlR),      _(_enter),      _(_space)
+    _(_guiR),       _(_enter),      _(_space)
     ),
   ERGODOX_LAYER( // L1: symbols and function
     // left hand
