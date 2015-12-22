@@ -163,7 +163,7 @@ ERGODOX_LAYOUT = {
     __,
     __,             __,             __
   ),
-  ERGODOX_LAYER( // L8: custom
+  ERGODOX_LAYER( // L8: Unix
     // left hand
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
@@ -172,7 +172,7 @@ ERGODOX_LAYOUT = {
     __,             __,             __,             __,             __,
                                                                                     __,             __,
                                                                                                     __,
-                                                                    __,             __,             __,
+                                                                    _(_ctrlL),      __,             __,
     // right hand
     __,             __,             __,             __,             __,             __,             POPALL,
     __,             __,             __,             __,             __,             __,             __,
