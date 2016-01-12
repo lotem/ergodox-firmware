@@ -63,7 +63,7 @@ ERGODOX_LAYOUT = {
     __,
     __,             __,             __
   ),
-  ERGODOX_LAYER( // L3: Combo Pinyin
+  ERGODOX_LAYER( // L3: Editor
     // left hand
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
@@ -72,7 +72,7 @@ ERGODOX_LAYOUT = {
     __,             __,             __,             __,             __,
                                                                                     __,             __,
                                                                                                     __,
-                                                                    _(_dash),       __,             __,
+                                                                    _(_bs),         __,             __,
     // right hand
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
