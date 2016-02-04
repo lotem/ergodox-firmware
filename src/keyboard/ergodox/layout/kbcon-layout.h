@@ -12,7 +12,7 @@ ERGODOX_LAYOUT = {
     _(_home),       _(_end),       _(_pageU),       _(_pageD),      CHORD(1),
                                                                                     _(_ctrlL),      _(_altL),
                                                                                                     _(_shiftL),
-                                                                    _(_ctrlL),      _(_esc),        _(_guiL),
+                                                                    _(_ctrlL),      _(_guiL),       _(_guiL),
     // right hand
     _(_del),        _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          _(_enter),
     _(_bracketR),   _(_Y),          _(_U),          _(_I),          _(_O),          _(_P),          _(_dash),
@@ -32,7 +32,7 @@ ERGODOX_LAYOUT = {
     __,             __,             __,             __,             CHORD(9),
                                                                                     __,             __,
                                                                                                     __,
-                                                                    __,             __,             __,
+                                                                    _(_bs),         _(_esc),        __,
     // right hand
     _(_del),        _(_F6),         _(_F7),         _(_F8),         _(_F9),         _(_F10),        _(_F12),
     __,             S(_6),          S(_7),          S(_8),          S(_backslash),  _(_backslash),  _(_volumeU),
@@ -41,7 +41,7 @@ ERGODOX_LAYOUT = {
                                     CHORD(9),       __,             __,             __,             __,
     __,             __,
     __,
-    __,             __,             __
+    __,             __,             _(_tab)
   ),
   ERGODOX_LAYER( // L2: Typewriter
     // left hand
@@ -52,7 +52,7 @@ ERGODOX_LAYOUT = {
     __,             __,             __,             __,             __,
                                                                                     __,             __,
                                                                                                     __,
-                                                                    _(_space),      __,             __,
+                                                                    _(_shiftL),     _(_ctrlL),      __,
     // right hand
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
@@ -63,7 +63,7 @@ ERGODOX_LAYOUT = {
     __,
     __,             __,             __
   ),
-  ERGODOX_LAYER( // L3: Editor
+  ERGODOX_LAYER( // L3: custom
     // left hand
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
@@ -72,7 +72,7 @@ ERGODOX_LAYOUT = {
     __,             __,             __,             __,             __,
                                                                                     __,             __,
                                                                                                     __,
-                                                                    _(_bs),         __,             __,
+                                                                    __,             __,             __,
     // right hand
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
