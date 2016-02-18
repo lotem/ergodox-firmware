@@ -3,7 +3,7 @@
  * created by lotem
  */
 ERGODOX_LAYOUT = {
-  ERGODOX_LAYER( // L0: Qwerty
+  ERGODOX_LAYER( // L0: Emacs
     // left hand
     _(_esc),        _(_1),          _(_2),          _(_3),          _(_4),          _(_5),          _(_grave),
     _(_equal),      _(_Q),          _(_W),          _(_E),          _(_R),          _(_T),          _(_bracketL),
@@ -11,8 +11,8 @@ ERGODOX_LAYOUT = {
     S2CAP(_shiftL), _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          _(_tab),
     _(_home),       _(_end),       _(_pageU),       _(_pageD),      CHORD(1),
                                                                                     _(_ctrlL),      _(_altL),
-                                                                                                    _(_shiftL),
-                                                                    _(_ctrlL),      _(_guiL),       _(_guiL),
+                                                                                                    _(_guiL),
+                                                                    _(_ctrlL),      _(_guiL),       _(_shiftL),
     // right hand
     _(_del),        _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          _(_enter),
     _(_bracketR),   _(_Y),          _(_U),          _(_I),          _(_O),          _(_P),          _(_dash),
@@ -20,8 +20,8 @@ ERGODOX_LAYOUT = {
     _(_bs),         _(_N),          _(_M),          _(_comma),      _(_period),     _(_slash),      S2CAP(_shiftR),
                                     CHORD(1),       _(_arrowL),     _(_arrowD),     _(_arrowU),     _(_arrowR),
     _(_altR),       _(_ctrlR),
-    _(_shiftR),
-    _(_guiR),       _(_enter),      _(_space)
+    _(_guiR),
+    _(_shiftR),     _(_enter),      _(_space)
   ),
   ERGODOX_LAYER( // L1: symbols and function
     // left hand
