@@ -32,7 +32,7 @@ ERGODOX_LAYOUT = {
     __,             __,             __,             __,             __,
                                                                                     __,             __,
                                                                                                     __,
-                                                                    __,             __,             __,
+                                                                    _(_tab),        __,             __,
     // right hand
     _(_del),        _(_F6),         _(_F7),         _(_F8),         _(_F9),         _(_F10),        _(_F12),
     __,             S(_6),          S(_7),          S(_8),          S(_grave),      _(_grave),      _(_volumeU),
@@ -41,7 +41,7 @@ ERGODOX_LAYOUT = {
                                     __,             __,             __,             __,             __,
     __,             __,
     __,
-    __,             __,             __
+    __,             __,             _(_bs)
   ),
   ERGODOX_LAYER( // L2: custom
     // left hand
