@@ -12,7 +12,7 @@ ERGODOX_LAYOUT = {
     _(_ctrlL),      _(_altL),       _(_guiL),       _(_grave),      _(_tab),
                                                                                     _(_shiftL),     _(_altL),
                                                                                                     _(_guiL),
-                                                                    _(_shiftL),     CHORD(1),       _(_ctrlL),
+                                                                    CHORD(1),       _(_shiftL),     _(_ctrlL),
     // right hand
     CHORD(9),       _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          _(_enter),
     _(_bracketR),   _(_Y),          _(_U),          _(_I),          _(_O),          _(_P),          _(_bs),
@@ -27,7 +27,7 @@ ERGODOX_LAYOUT = {
     // left hand
     _(_insert),     _(_F1),         _(_F2),         _(_F3),         _(_F4),         _(_F5),         _(_F11),
     M(PREV_TRACK),  S(_1),          S(_2),          S(_3),          S(_4),          S(_5),          __,
-    M(PLAY_PAUSE),  S(_backslash),  _(_bracketL),   _(_bracketR),   S(_bracketL),   S(_dash),
+    M(PLAY_PAUSE),  S(_backslash),  _(_bracketL),   _(_bracketR),   S(_dash),       S(_bracketL),
     M(NEXT_TRACK),  _(_1),          _(_2),          _(_3),          _(_4),          _(_5),          __,
     __,             __,             __,             _(_arrowL),     _(_arrowR),
                                                                                     __,             __,
@@ -36,7 +36,7 @@ ERGODOX_LAYOUT = {
     // right hand
     _(_F12),        _(_F6),         _(_F7),         _(_F8),         _(_F9),         _(_F10),        _(_del),
     __,             S(_6),          S(_7),          S(_8),          S(_grave),      _(_grave),      _(_volumeU),
-    /*_*/           S(_equal),      S(_bracketR),   S(_9),          S(_0),          S(_quote),      _(_volumeD),
+    /*_*/           S(_bracketR),   S(_equal),      S(_9),          S(_0),          S(_quote),      _(_volumeD),
     __,             _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          _(_mute),
                                     _(_arrowD),     _(_arrowU),     __,             __,             __,
     _(_home),       _(_end),
