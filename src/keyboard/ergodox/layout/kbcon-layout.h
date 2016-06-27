@@ -9,19 +9,19 @@ ERGODOX_LAYOUT = {
     _(_tab),        _(_Q),          _(_W),          _(_E),          _(_R),          _(_T),          _(_bracketL),
     _(_backslash),  _(_A),          _(_S),          _(_D),          _(_F),          _(_G),
     S2CAP(_shiftL), _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          _(_dash),
-    _(_ctrlL),      _(_altL),       _(_guiL),       _(_grave),      _(_tab),
-                                                                                    _(_shiftL),     _(_altL),
-                                                                                                    _(_guiL),
-                                                                    CHORD(1),       _(_shiftL),     _(_ctrlL),
+    _(_shiftL),     CHORD(1),       _(_altL),       _(_guiL),       _(_ctrlL),
+                                                                                    _(_arrowL),     _(_arrowR),
+                                                                                                    _(_grave),
+                                                                    _(_space),      _(_shiftL),     _(_tab),
     // right hand
     CHORD(9),       _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          _(_enter),
     _(_bracketR),   _(_Y),          _(_U),          _(_I),          _(_O),          _(_P),          _(_bs),
     /*_*/           _(_H),          _(_J),          _(_K),          _(_L),          _(_semicolon),  _(_quote),
     _(_equal),      _(_N),          _(_M),          _(_comma),      _(_period),     _(_slash),      S2CAP(_shiftR),
-                                    _(_bs),         _(_del),        _(_guiR),       _(_altR),       _(_ctrlR),
-    _(_altR),       _(_shiftR),
-    _(_guiR),
-    _(_ctrlR),      _(_enter),      _(_space)
+                                    _(_ctrlR),      _(_guiR),       _(_altR),       CHORD(1),       _(_shiftR),
+    _(_arrowD),     _(_arrowU),
+    _(_del),
+    _(_bs),         CHORD(1),       _(_enter)
   ),
   ERGODOX_LAYER( // L1: symbols and function
     // left hand
@@ -30,7 +30,7 @@ ERGODOX_LAYOUT = {
     M(PLAY_PAUSE),  S(_backslash),  _(_bracketL),   _(_bracketR),   S(_dash),       S(_bracketL),
     M(NEXT_TRACK),  _(_1),          _(_2),          _(_3),          _(_4),          _(_5),          __,
     __,             __,             __,             _(_arrowL),     _(_arrowR),
-                                                                                    __,             __,
+                                                                                    _(_home),       _(_end),
                                                                                                     __,
                                                                     __,             __,             __,
     // right hand
@@ -39,9 +39,9 @@ ERGODOX_LAYOUT = {
     /*_*/           S(_bracketR),   S(_equal),      S(_9),          S(_0),          S(_quote),      _(_volumeD),
     __,             _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          _(_mute),
                                     _(_arrowD),     _(_arrowU),     __,             __,             __,
-    _(_home),       _(_end),
-    _(_pageU),
-    _(_pageD),      __,             __
+    _(_pageD),      _(_pageU),
+    __,
+    __,             __,             __
   ),
   ERGODOX_LAYER( // L2: custom
     // left hand
