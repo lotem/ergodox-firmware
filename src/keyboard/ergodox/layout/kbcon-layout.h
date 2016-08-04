@@ -101,7 +101,7 @@ ERGODOX_LAYOUT = {
                                     __,             __,             __,             __,             __,
     __,             __,
     __,
-    __,             __,             _(_space)
+    __,             _(_enter),      _(_space)
   ),
   ERGODOX_LAYER( // L5: Dvorak
     // left hand
