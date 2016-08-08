@@ -6,8 +6,8 @@ ERGODOX_LAYOUT = {
   ERGODOX_LAYER( // L0: typewriter
     // left hand
     _(_esc),        _(_1),          _(_2),          _(_3),          _(_4),          _(_5),          _(_grave),
-    _(_tab),        _(_Q),          _(_W),          _(_D),          _(_R),          _(_F),          _(_bracketL),
-    _(_ctrlL),      _(_A),          _(_S),          _(_E),          _(_T),          _(_G),
+    _(_tab),        _(_Q),          _(_W),          _(_E),          _(_R),          _(_T),          _(_bracketL),
+    _(_ctrlL),      _(_A),          _(_S),          _(_D),          _(_F),          _(_G),
     S2CAP(_shiftL), _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          _(_dash),
     _(_ctrlL),      _(_altL),       _(_shiftL),     _(_guiL),       CHORD(1),
                                                                                     _(_ctrlL),      _(_altL),
@@ -15,9 +15,9 @@ ERGODOX_LAYOUT = {
                                                                     _(_space),      _(_tab),        S2CAP(_shiftL),
     // right hand
     _(_backslash),  _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          _(_enter),
-    _(_bracketR),   _(_Y),          _(_U),          _(_K),          _(_L),          _(_P),          _(_bs),
-    /*_*/           _(_H),          _(_N),          _(_I),          _(_O),          _(_semicolon),  _(_quote),
-    _(_equal),      _(_J),          _(_M),          _(_comma),      _(_period),     _(_slash),      S2CAP(_shiftR),
+    _(_bracketR),   _(_Y),          _(_U),          _(_I),          _(_O),          _(_P),          _(_bs),
+    /*_*/           _(_H),          _(_J),          _(_K),          _(_L),          _(_semicolon),  _(_quote),
+    _(_equal),      _(_N),          _(_M),          _(_comma),      _(_period),     _(_slash),      S2CAP(_shiftR),
                                     CHORD(1),       _(_guiR),       _(_shiftR),     _(_altR),       _(_ctrlR),
     _(_altR),       _(_ctrlR),
     _(_guiR),
@@ -43,11 +43,11 @@ ERGODOX_LAYOUT = {
     _(_pageU),
     _(_pageD),      _(_del),        __
   ),
-  ERGODOX_LAYER( // L2: Qwerty
+  ERGODOX_LAYER( // L2: KBCon
     // left hand
     __,             _(_1),          _(_2),          _(_3),          _(_4),          _(_5),          __,
-    __,             _(_Q),          _(_W),          _(_E),          _(_R),          _(_T),          __,
-    __,             _(_A),          _(_S),          _(_D),          _(_F),          _(_G),
+    __,             _(_Q),          _(_W),          _(_D),          _(_R),          _(_F),          __,
+    __,             _(_A),          _(_S),          _(_E),          _(_T),          _(_G),
     __,             _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          __,
     __,             __,             __,             __,             __,
                                                                                     __,             __,
@@ -55,9 +55,9 @@ ERGODOX_LAYOUT = {
                                                                     __,             __,             __,
     // right hand
     __,             _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          __,
-    __,             _(_Y),          _(_U),          _(_I),          _(_O),          _(_P),          __,
-    /*_*/           _(_H),          _(_J),          _(_K),          _(_L),          _(_semicolon),  __,
-    __,             _(_N),          _(_M),          _(_comma),      _(_period),     _(_slash),      __,
+    __,             _(_Y),          _(_U),          _(_K),          _(_L),          _(_P),          __,
+    /*_*/           _(_H),          _(_N),          _(_I),          _(_O),          _(_semicolon),  __,
+    __,             _(_J),          _(_M),          _(_comma),      _(_period),     _(_slash),      __,
                                     __,             __,             __,             __,             __,
     __,             __,
     __,
