@@ -9,19 +9,19 @@ ERGODOX_LAYOUT = {
     _(_tab),        _(_Q),          _(_W),          _(_D),          _(_R),          _(_F),          _(_bracketL),
     _(_ctrlL),      _(_A),          _(_S),          _(_E),          _(_T),          _(_G),
     S2CAP(_shiftL), _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          _(_dash),
-    _(_guiL),       _(_altL),       _(_ctrlL),      _(_shiftL),     CHORD(1),
-                                                                                    _(_altL),       _(_guiL),
-                                                                                                    _(_shiftL),
-                                                                    _(_space),      _(_tab),        _(_ctrlL),
+    _(_ctrlL),      _(_altL),       _(_shiftL),     _(_guiL),       CHORD(1),
+                                                                                    _(_ctrlL),      _(_altL),
+                                                                                                    _(_guiL),
+                                                                    _(_space),      _(_tab),        S2CAP(_shiftL),
     // right hand
     _(_backslash),  _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          _(_enter),
     _(_bracketR),   _(_Y),          _(_U),          _(_K),          _(_L),          _(_P),          _(_bs),
     /*_*/           _(_H),          _(_N),          _(_I),          _(_O),          _(_semicolon),  _(_quote),
     _(_equal),      _(_J),          _(_M),          _(_comma),      _(_period),     _(_slash),      S2CAP(_shiftR),
-                                    CHORD(1),       _(_shiftR),     _(_ctrlR),      _(_altR),       _(_guiR),
-    _(_ctrlR),      _(_altR),
-    _(_shiftR),
-    _(_guiR),       _(_bs),         _(_enter)
+                                    CHORD(1),       _(_guiR),       _(_shiftR),     _(_altR),       _(_ctrlR),
+    _(_altR),       _(_ctrlR),
+    _(_guiR),
+    S2CAP(_shiftR), _(_bs),         _(_enter)
   ),
   ERGODOX_LAYER( // L1: symbols and function
     // left hand
