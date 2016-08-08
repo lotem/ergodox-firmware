@@ -10,18 +10,18 @@ ERGODOX_LAYOUT = {
     _(_ctrlL),      _(_A),          _(_S),          _(_D),          _(_F),          _(_G),
     S2CAP(_shiftL), _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          _(_dash),
     _(_ctrlL),      _(_altL),       _(_shiftL),     _(_guiL),       CHORD(1),
-                                                                                    _(_ctrlL),      _(_altL),
-                                                                                                    _(_guiL),
-                                                                    _(_space),      _(_tab),        S2CAP(_shiftL),
+                                                                                    S2CAP(_shiftL), _(_altL),
+                                                                                                    _(_grave),
+                                                                    _(_space),      _(_ctrlL),      _(_tab),
     // right hand
     _(_backslash),  _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          _(_enter),
     _(_bracketR),   _(_Y),          _(_U),          _(_I),          _(_O),          _(_P),          _(_bs),
     /*_*/           _(_H),          _(_J),          _(_K),          _(_L),          _(_semicolon),  _(_quote),
     _(_equal),      _(_N),          _(_M),          _(_comma),      _(_period),     _(_slash),      S2CAP(_shiftR),
                                     CHORD(1),       _(_guiR),       _(_shiftR),     _(_altR),       _(_ctrlR),
-    _(_altR),       _(_ctrlR),
-    _(_guiR),
-    S2CAP(_shiftR), _(_bs),         _(_enter)
+    _(_altR),       S2CAP(_shiftR),
+    _(_del),
+    _(_bs),         _(_guiR),       _(_enter)
   ),
   ERGODOX_LAYER( // L1: symbols and function
     // left hand
@@ -32,7 +32,7 @@ ERGODOX_LAYOUT = {
     __,             __,             __,             __,             CHORD(9),
                                                                                     __,             __,
                                                                                                     __,
-                                                                    __,             __,             __,
+                                                                    _(_bs),         __,             __,
     // right hand
     _(_F12),        _(_F6),         _(_F7),         _(_F8),         _(_F9),         _(_F10),        _(_del),
     __,             S(_6),          _(_bs),         _(_arrowU),     _(_tab),        S(_1),          _(_volumeU),
@@ -41,7 +41,7 @@ ERGODOX_LAYOUT = {
                                     CHORD(9),       __,             __,             __,             __,
     _(_home),       _(_end),
     _(_pageU),
-    _(_pageD),      _(_del),        __
+    _(_pageD),      __,             _(_tab)
   ),
   ERGODOX_LAYER( // L2: KBCon
     // left hand
