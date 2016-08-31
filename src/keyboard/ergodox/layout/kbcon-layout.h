@@ -163,7 +163,7 @@ ERGODOX_LAYOUT = {
     __,
     __,             __,             __
   ),
-  ERGODOX_LAYER( // L8: custom
+  ERGODOX_LAYER( // L8: typewriter
     // left hand
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
@@ -181,7 +181,7 @@ ERGODOX_LAYOUT = {
                                     __,             __,             __,             __,             __,
     __,             __,
     __,
-    __,             __,             __
+    __,             __,             _(_space)
   ),
   ERGODOX_LAYER( // L9: layout switcher
     // left hand
