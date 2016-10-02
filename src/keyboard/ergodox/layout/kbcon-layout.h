@@ -10,16 +10,16 @@ ERGODOX_LAYOUT = {
     _(_ctrlL),      _(_A),          _(_S),          _(_D),          _(_F),          _(_G),
     S2CAP(_shiftL), _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          _(_dash),
     _(_ctrlL),      _(_altL),       _(_shiftL),     _(_guiL),       CHORD(1),
-                                                                                    S2CAP(_shiftL), _(_altL),
+                                                                                    _(_ctrlL),      _(_altL),
                                                                                                     _(_grave),
-                                                                    _(_space),      _(_ctrlL),      _(_tab),
+                                                                    _(_space),      _(_shiftL),     _(_tab),
     // right hand
     _(_backslash),  _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          _(_enter),
     _(_bracketR),   _(_Y),          _(_U),          _(_I),          _(_O),          _(_P),          _(_bs),
     /*_*/           _(_H),          _(_J),          _(_K),          _(_L),          _(_semicolon),  _(_quote),
     _(_equal),      _(_N),          _(_M),          _(_comma),      _(_period),     _(_slash),      S2CAP(_shiftR),
                                     CHORD(1),       _(_guiR),       _(_shiftR),     _(_altR),       _(_ctrlR),
-    _(_altR),       S2CAP(_shiftR),
+    _(_altR),       _(_ctrlR),
     _(_del),
     _(_bs),         _(_guiR),       _(_enter)
   ),
@@ -163,25 +163,25 @@ ERGODOX_LAYOUT = {
     __,
     __,             __,             __
   ),
-  ERGODOX_LAYER( // L8: typewriter
+  ERGODOX_LAYER( // L8: Emacs
     // left hand
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,
-                                                                                    __,             __,
+                                                                                    S2CAP(_shiftL), __,
                                                                                                     __,
-                                                                    __,             __,             __,
+                                                                    __,             _(_ctrlL),      __,
     // right hand
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
     /*_*/           __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
                                     __,             __,             __,             __,             __,
-    __,             __,
+    __,             S2CAP(_shiftR),
     __,
-    __,             __,             _(_space)
+    __,             __,             __
   ),
   ERGODOX_LAYER( // L9: layout switcher
     // left hand
