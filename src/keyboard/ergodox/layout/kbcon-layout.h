@@ -170,18 +170,18 @@ ERGODOX_LAYOUT = {
     __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,
-                                                                                    _(_ctrlL),      _(_altL),
-                                                                                                    S2CAP(_shiftL),
-                                                                    __,             __,             _(_guiL),
+                                                                                    S2CAP(_shiftL), _(_altL),
+                                                                                                    _(_guiL),
+                                                                    __,             __,             _(_ctrlL),
     // right hand
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
     /*_*/           __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
                                     __,             __,             __,             __,             __,
-    _(_altR),      _(_ctrlR),
-    S2CAP(_shiftR),
-    _(_guiR),       __,             __
+    _(_altR),       S2CAP(_shiftR),
+    _(_guiR),
+    _(_ctrlR),      __,             __
   ),
   ERGODOX_LAYER( // L9: layout switcher
     // left hand
