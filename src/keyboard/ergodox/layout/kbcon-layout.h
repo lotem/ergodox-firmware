@@ -12,7 +12,7 @@ ERGODOX_LAYOUT = {
     _(_ctrlL),      _(_altL),       _(_shiftL),     _(_guiL),       CHORD(1),
                                                                                     S2CAP(_shiftL), _(_guiL),
                                                                                                     _(_altL),
-                                                                    _(_space),      _(_tab),        _(_ctrlL),
+                                                                    _(_enter),      _(_tab),        _(_ctrlL),
     // right hand
     _(_backslash),  _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          _(_enter),
     _(_bracketR),   _(_Y),          _(_U),          _(_I),          _(_O),          _(_P),          _(_bs),
@@ -21,7 +21,7 @@ ERGODOX_LAYOUT = {
                                     CHORD(1),       _(_guiR),       _(_shiftR),     _(_altR),       _(_ctrlR),
     _(_guiR),       S2CAP(_shiftR),
     _(_altR),
-    _(_ctrlR),      _(_bs),         _(_enter)
+    _(_ctrlR),      _(_bs),         _(_space)
   ),
   ERGODOX_LAYER( // L1: symbols and function
     // left hand
@@ -101,7 +101,7 @@ ERGODOX_LAYOUT = {
                                     __,             __,             __,             __,             __,
     __,             __,
     __,
-    __,             _(_enter),      _(_space)
+    __,             __,             __
   ),
   ERGODOX_LAYER( // L5: Dvorak
     // left hand
@@ -152,7 +152,7 @@ ERGODOX_LAYOUT = {
     __,             __,             __,             __,             __,
                                                                                     __,             __,
                                                                                                     __,
-                                                                    __,             __,             __,
+                                                                    _(_semicolon),  __,             __,
     // right hand
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
@@ -161,7 +161,7 @@ ERGODOX_LAYOUT = {
                                     __,             __,             __,             __,             __,
     __,             __,
     __,
-    __,             __,             _(_semicolon)
+    __,             __,             __
   ),
   ERGODOX_LAYER( // L8: Mac
     // left hand
