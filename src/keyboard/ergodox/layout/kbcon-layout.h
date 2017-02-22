@@ -43,47 +43,7 @@ ERGODOX_LAYOUT = {
     _(_pageU),
     _(_pageD),      _(_del),        _(_enter)
   ),
-  ERGODOX_LAYER( // L2: KBCon
-    // left hand
-    __,             _(_1),          _(_2),          _(_3),          _(_4),          _(_5),          __,
-    __,             _(_Q),          _(_W),          _(_D),          _(_R),          _(_F),          __,
-    __,             _(_A),          _(_S),          _(_E),          _(_T),          _(_G),
-    __,             _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          __,
-    __,             __,             __,             __,             __,
-                                                                                    __,             __,
-                                                                                                    __,
-                                                                    __,             __,             __,
-    // right hand
-    __,             _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          __,
-    __,             _(_Y),          _(_U),          _(_K),          _(_L),          _(_P),          __,
-    /*_*/           _(_H),          _(_N),          _(_I),          _(_O),          _(_semicolon),  __,
-    __,             _(_J),          _(_M),          _(_comma),      _(_period),     _(_slash),      __,
-                                    __,             __,             __,             __,             __,
-    __,             __,
-    __,
-    __,             __,             __
-  ),
-  ERGODOX_LAYER( // L3: Minimak
-    // left hand
-    __,             _(_1),          _(_2),          _(_3),          _(_4),          _(_5),          __,
-    __,             _(_Q),          _(_W),          _(_D),          _(_F),          _(_K),          __,
-    __,             _(_A),          _(_S),          _(_T),          _(_R),          _(_G),
-    __,             _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          __,
-    __,             __,             __,             __,             __,
-                                                                                    __,             __,
-                                                                                                    __,
-                                                                    __,             __,             __,
-    // right hand
-    __,             _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          __,
-    __,             _(_Y),          _(_U),          _(_I),          _(_L),          _(_semicolon),  __,
-    /*_*/           _(_H),          _(_N),          _(_E),          _(_O),          _(_P),          __,
-    __,             _(_J),          _(_M),          _(_comma),      _(_period),     _(_slash),      __,
-                                    __,             __,             __,             __,             __,
-    __,             __,
-    __,
-    __,             __,             __
-  ),
-  ERGODOX_LAYER( // L4: Maltron
+  ERGODOX_LAYER( // L2: Maltron
     // left hand
     __,             _(_1),          _(_2),          _(_3),          _(_4),          _(_5),          __,
     __,             _(_Q),          _(_P),          _(_Y),          _(_C),          _(_B),          __,
@@ -103,7 +63,7 @@ ERGODOX_LAYOUT = {
     __,
     __,             __,             __
   ),
-  ERGODOX_LAYER( // L5: Dvorak
+  ERGODOX_LAYER( // L3: Dvorak
     // left hand
     __,             _(_1),          _(_2),          _(_3),          _(_4),          _(_5),          __,
     __,             _(_quote),      _(_comma),      _(_period),     _(_P),          _(_Y),          __,
@@ -123,7 +83,7 @@ ERGODOX_LAYOUT = {
     __,
     __,             __,             __
   ),
-  ERGODOX_LAYER( // L6: Colemak
+  ERGODOX_LAYER( // L4: Colemak
     // left hand
     __,             _(_1),          _(_2),          _(_3),          _(_4),          _(_5),          __,
     __,             _(_Q),          _(_W),          _(_F),          _(_P),          _(_G),          __,
@@ -138,6 +98,46 @@ ERGODOX_LAYOUT = {
     __,             _(_J),          _(_L),          _(_U),          _(_Y),          _(_semicolon),  __,
     /*_*/           _(_H),          _(_N),          _(_E),          _(_I),          _(_O),          __,
     __,             _(_K),          _(_M),          _(_comma),      _(_period),     _(_slash),      __,
+                                    __,             __,             __,             __,             __,
+    __,             __,
+    __,
+    __,             __,             __
+  ),
+  ERGODOX_LAYER( // L5: Minimak
+    // left hand
+    __,             _(_1),          _(_2),          _(_3),          _(_4),          _(_5),          __,
+    __,             _(_Q),          _(_W),          _(_D),          _(_F),          _(_K),          __,
+    __,             _(_A),          _(_S),          _(_T),          _(_R),          _(_G),
+    __,             _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          __,
+    __,             __,             __,             __,             __,
+                                                                                    __,             __,
+                                                                                                    __,
+                                                                    __,             __,             __,
+    // right hand
+    __,             _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          __,
+    __,             _(_Y),          _(_U),          _(_I),          _(_L),          _(_semicolon),  __,
+    /*_*/           _(_H),          _(_N),          _(_E),          _(_O),          _(_P),          __,
+    __,             _(_J),          _(_M),          _(_comma),      _(_period),     _(_slash),      __,
+                                    __,             __,             __,             __,             __,
+    __,             __,
+    __,
+    __,             __,             __
+  ),
+  ERGODOX_LAYER( // L6: KBCon
+    // left hand
+    __,             _(_1),          _(_2),          _(_3),          _(_4),          _(_5),          __,
+    __,             _(_Q),          _(_W),          _(_D),          _(_R),          _(_F),          __,
+    __,             _(_A),          _(_S),          _(_E),          _(_T),          _(_G),
+    __,             _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          __,
+    __,             __,             __,             __,             __,
+                                                                                    __,             __,
+                                                                                                    __,
+                                                                    __,             __,             __,
+    // right hand
+    __,             _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          __,
+    __,             _(_Y),          _(_U),          _(_K),          _(_L),          _(_P),          __,
+    /*_*/           _(_H),          _(_N),          _(_I),          _(_O),          _(_semicolon),  __,
+    __,             _(_J),          _(_M),          _(_comma),      _(_period),     _(_slash),      __,
                                     __,             __,             __,             __,             __,
     __,             __,
     __,
@@ -163,29 +163,29 @@ ERGODOX_LAYOUT = {
     __,
     __,             __,             __
   ),
-  ERGODOX_LAYER( // L8: Mac
+  ERGODOX_LAYER( // L8: unused
     // left hand
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,
-                                                                                    S2CAP(_shiftL), _(_altL),
-                                                                                                    _(_guiL),
-                                                                    __,             __,             _(_ctrlL),
+                                                                                    __,             __,
+                                                                                                    __,
+                                                                    __,             __,             __,
     // right hand
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
     /*_*/           __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
                                     __,             __,             __,             __,             __,
-    _(_altR),       S2CAP(_shiftR),
-    _(_guiR),
-    _(_ctrlR),      __,             __
+    __,             __,
+    __,
+    __,             __,             __
   ),
   ERGODOX_LAYER( // L9: layout switcher
     // left hand
-    BOOTLOADER,     POPALL,         PUSH(2),        PUSH(3),        PUSH(4),        PUSH(5),        UNUSED,
+    POPALL,         PUSH(2),        PUSH(3),        PUSH(4),        PUSH(5),        PUSH(6),        PUSH(7),
     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
@@ -194,7 +194,7 @@ ERGODOX_LAYOUT = {
                                                                                                     UNUSED,
                                                                     UNUSED,         UNUSED,         UNUSED,
     // right hand
-    UNUSED,         PUSH(6),        PUSH(7),        PUSH(8),        POPALL,         POPALL,         POPALL,
+    BOOTLOADER,     UNUSED,         UNUSED,         UNUSED,         UNUSED,         POPALL,         PUSH(7),
     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
     /*_*/           UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
