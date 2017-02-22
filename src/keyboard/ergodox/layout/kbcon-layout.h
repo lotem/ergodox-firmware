@@ -10,18 +10,18 @@ ERGODOX_LAYOUT = {
     _(_ctrlL),      _(_A),          _(_S),          _(_D),          _(_F),          _(_G),
     S2CAP(_shiftL), _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          _(_dash),
     _(_ctrlL),      _(_altL),       _(_guiL),       S2CAP(_shiftL), CHORD(1),
-                                                                                    S2CAP(_shiftL), _(_guiL),
+                                                                                    S2CAP(_shiftL), _(_ctrlL),
                                                                                                     _(_altL),
-                                                                    _(_enter),      _(_tab),        _(_ctrlL),
+                                                                    _(_enter),      _(_tab),        _(_guiL),
     // right hand
     _(_backslash),  _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          _(_enter),
     _(_bracketR),   _(_Y),          _(_U),          _(_I),          _(_O),          _(_P),          _(_bs),
     /*_*/           _(_H),          _(_J),          _(_K),          _(_L),          _(_semicolon),  _(_quote),
     _(_equal),      _(_N),          _(_M),          _(_comma),      _(_period),     _(_slash),      S2CAP(_shiftR),
                                     CHORD(1),       S2CAP(_shiftR), _(_guiR),       _(_altR),       _(_ctrlR),
-    _(_guiR),       S2CAP(_shiftR),
+    _(_ctrlR),      S2CAP(_shiftR),
     _(_altR),
-    _(_ctrlR),      _(_bs),         _(_space)
+    _(_guiR),       _(_bs),         _(_space)
   ),
   ERGODOX_LAYER( // L1: symbols and function
     // left hand
@@ -41,7 +41,7 @@ ERGODOX_LAYOUT = {
                                     CHORD(9),       __,             __,             __,             __,
     __,             __,
     __,
-    __,      _(_del),        _(_enter)
+    __,             _(_del),        _(_enter)
   ),
   ERGODOX_LAYER( // L2: Maltron
     // left hand
