@@ -9,7 +9,7 @@ ERGODOX_LAYOUT = {
     _(_tab),        _(_Q),          _(_W),          _(_E),          _(_R),          _(_T),          _(_bracketL),
     _(_ctrlL),      _(_A),          _(_S),          _(_D),          _(_F),          _(_G),
     S2CAP(_shiftL), _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          _(_dash),
-    _(_ctrlL),      _(_altL),       _(_shiftL),     _(_guiL),       CHORD(1),
+    _(_ctrlL),      _(_altL),       _(_guiL),       S2CAP(_shiftL), CHORD(1),
                                                                                     S2CAP(_shiftL), _(_guiL),
                                                                                                     _(_altL),
                                                                     _(_enter),      _(_tab),        _(_ctrlL),
@@ -18,7 +18,7 @@ ERGODOX_LAYOUT = {
     _(_bracketR),   _(_Y),          _(_U),          _(_I),          _(_O),          _(_P),          _(_bs),
     /*_*/           _(_H),          _(_J),          _(_K),          _(_L),          _(_semicolon),  _(_quote),
     _(_equal),      _(_N),          _(_M),          _(_comma),      _(_period),     _(_slash),      S2CAP(_shiftR),
-                                    CHORD(1),       _(_guiR),       _(_shiftR),     _(_altR),       _(_ctrlR),
+                                    CHORD(1),       S2CAP(_shiftR), _(_guiR),       _(_altR),       _(_ctrlR),
     _(_guiR),       S2CAP(_shiftR),
     _(_altR),
     _(_ctrlR),      _(_bs),         _(_space)
