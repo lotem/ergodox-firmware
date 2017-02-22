@@ -35,13 +35,13 @@ ERGODOX_LAYOUT = {
                                                                     __,             __,             __,
     // right hand
     _(_F12),        _(_F6),         _(_F7),         _(_F8),         _(_F9),         _(_F10),        _(_del),
-    __,             S(_6),          _(_bs),         _(_arrowU),     _(_tab),        S(_1),          _(_volumeU),
-    /*_*/           S(_3),          _(_arrowL),     _(_arrowD),     _(_arrowR),     _(_quote),      _(_mute),
+    __,             S(_6),          _(_bs),         _(_tab),        S(_3),          S(_1),          _(_volumeU),
+    /*_*/           _(_arrowL),     _(_arrowD),     _(_arrowU),     _(_arrowR),     _(_quote),      _(_mute),
     __,             S(_grave),      S(_dash),       S(_4),          _(_dash),       S(_quote),      _(_volumeD),
                                     CHORD(9),       __,             __,             __,             __,
-    _(_home),       _(_end),
-    _(_pageU),
-    _(_pageD),      _(_del),        _(_enter)
+    __,             __,
+    __,
+    __,      _(_del),        _(_enter)
   ),
   ERGODOX_LAYER( // L2: Maltron
     // left hand
@@ -196,7 +196,7 @@ ERGODOX_LAYOUT = {
     // right hand
     BOOTLOADER,     UNUSED,         UNUSED,         UNUSED,         UNUSED,         POPALL,         PUSH(7),
     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
-    /*_*/           UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
+    /*_*/           _(_home),       _(_pageD),      _(_pageU),      _(_end),        UNUSED,         UNUSED,
     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
                                     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
     UNUSED,         UNUSED,
