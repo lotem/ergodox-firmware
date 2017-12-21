@@ -163,7 +163,7 @@ ERGODOX_LAYOUT = {
     __,
     __,             __,             __
   ),
-  ERGODOX_LAYER( // L8: unused
+  ERGODOX_LAYER( // L8: favors Alt
     // left hand
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
@@ -171,8 +171,8 @@ ERGODOX_LAYOUT = {
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,
                                                                                     __,             __,
-                                                                                                    __,
-                                                                    __,             __,             __,
+                                                                                                    _(_guiL),
+                                                                    __,             __,             _(_altL),
     // right hand
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
@@ -180,8 +180,8 @@ ERGODOX_LAYOUT = {
     __,             __,             __,             __,             __,             __,             __,
                                     __,             __,             __,             __,             __,
     __,             __,
-    __,
-    __,             __,             __
+    _(_guiR),
+    _(_altR),       __,             __
   ),
   ERGODOX_LAYER( // L9: layout switcher
     // left hand
@@ -192,7 +192,7 @@ ERGODOX_LAYOUT = {
     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
                                                                                     UNUSED,         UNUSED,
                                                                                                     UNUSED,
-                                                                    UNUSED,         UNUSED,         UNUSED,
+                                                                    UNUSED,         UNUSED,         PUSH(8),
     // right hand
     BOOTLOADER,     UNUSED,         UNUSED,         UNUSED,         UNUSED,         POPALL,         PUSH(7),
     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
@@ -201,6 +201,6 @@ ERGODOX_LAYOUT = {
                                     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
     UNUSED,         UNUSED,
     UNUSED,
-    UNUSED,         UNUSED,         UNUSED
+    POP(8),         UNUSED,         UNUSED
   ),
 };
