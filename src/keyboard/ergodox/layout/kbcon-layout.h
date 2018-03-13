@@ -174,7 +174,7 @@ ERGODOX_LAYOUT = {
                                                                                                     __,
                                                                     __,             __,             __,
     // right hand
-    __,             __,             __,             _(_equal_kp),   _(_div_kp),     _(_mul_kp),     __,
+    __,             __,             _(_numLock_kp), _(_equal_kp),   _(_div_kp),     _(_mul_kp),     __,
     __,             __,             _(_7_kp),       _(_8_kp),       _(_9_kp),       _(_sub_kp),     __,
     /*_*/           __,             _(_4_kp),       _(_5_kp),       _(_6_kp),       _(_add_kp),     __,
     __,             __,             _(_1_kp),       _(_2_kp),       _(_3_kp),       _(_enter_kp),   __,
