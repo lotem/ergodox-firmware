@@ -9,7 +9,7 @@ ERGODOX_LAYOUT = {
     _(_tab),        _(_Q),          _(_W),          _(_E),          _(_R),          _(_T),          _(_bracketL),
     _(_ctrlL),      _(_A),          _(_S),          _(_D),          _(_F),          _(_G),
     S2CAP(_shiftL), _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          _(_dash),
-    _(_ctrlL),      _(_altL),       _(_guiL),       S2CAP(_shiftL), CHORD(1),
+    _(_ctrlL),      _(_altL),       _(_guiL),       CHORD(8),       CHORD(1),
                                                                                     _(_tab),        _(_ctrlL),
                                                                                                     _(_altL),
                                                                     _(_shiftL),     _(_ctrlL),      _(_guiL),
@@ -18,7 +18,7 @@ ERGODOX_LAYOUT = {
     _(_bracketR),   _(_Y),          _(_U),          _(_I),          _(_O),          _(_P),          _(_bs),
     /*_*/           _(_H),          _(_J),          _(_K),          _(_L),          _(_semicolon),  _(_quote),
     _(_equal),      _(_N),          _(_M),          _(_comma),      _(_period),     _(_slash),      S2CAP(_shiftR),
-                                    CHORD(1),       S2CAP(_shiftR), _(_guiR),       _(_altR),       _(_ctrlR),
+                                    CHORD(1),       CHORD(8),       _(_guiR),       _(_altR),       _(_ctrlR),
     _(_ctrlR),      _(_bs),
     _(_altR),
     _(_guiR),       _(_enter),      _(_space)
@@ -103,27 +103,7 @@ ERGODOX_LAYOUT = {
     __,
     __,             __,             __
   ),
-  ERGODOX_LAYER( // L5: Minimak
-    // left hand
-    __,             _(_1),          _(_2),          _(_3),          _(_4),          _(_5),          __,
-    __,             _(_Q),          _(_W),          _(_D),          _(_F),          _(_K),          __,
-    __,             _(_A),          _(_S),          _(_T),          _(_R),          _(_G),
-    __,             _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          __,
-    __,             __,             __,             __,             __,
-                                                                                    __,             __,
-                                                                                                    __,
-                                                                    __,             __,             __,
-    // right hand
-    __,             _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          __,
-    __,             _(_Y),          _(_U),          _(_I),          _(_L),          _(_semicolon),  __,
-    /*_*/           _(_H),          _(_N),          _(_E),          _(_O),          _(_P),          __,
-    __,             _(_J),          _(_M),          _(_comma),      _(_period),     _(_slash),      __,
-                                    __,             __,             __,             __,             __,
-    __,             __,
-    __,
-    __,             __,             __
-  ),
-  ERGODOX_LAYER( // L6: KBCon
+  ERGODOX_LAYER( // L5: KBCon
     // left hand
     __,             _(_1),          _(_2),          _(_3),          _(_4),          _(_5),          __,
     __,             _(_Q),          _(_W),          _(_D),          _(_R),          _(_F),          __,
@@ -143,7 +123,7 @@ ERGODOX_LAYOUT = {
     __,
     __,             __,             __
   ),
-  ERGODOX_LAYER( // L7: Combo Pinyin
+  ERGODOX_LAYER( // L6: Combo Pinyin
     // left hand
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
@@ -163,7 +143,7 @@ ERGODOX_LAYOUT = {
     __,
     __,             __,             __
   ),
-  ERGODOX_LAYER( // L8: favors Alt
+  ERGODOX_LAYER( // L7: favors Alt
     // left hand
     __,             __,             __,             __,             __,             __,             __,
     __,             __,             __,             __,             __,             __,             __,
@@ -183,24 +163,44 @@ ERGODOX_LAYOUT = {
     _(_guiR),
     _(_altR),       __,             __
   ),
+  ERGODOX_LAYER( // L8: Digits
+    // left hand
+    __,             __,             __,             __,             __,             __,             __,
+    __,             __,             __,             __,             __,             __,             __,
+    __,             __,             __,             __,             __,             __,
+    __,             __,             __,             __,             __,             __,             __,
+    __,             __,             __,             __,             __,
+                                                                                    __,             __,
+                                                                                                    __,
+                                                                    __,             __,             __,
+    // right hand
+    __,             __,             __,             _(_equal_kp),   _(_div_kp),     _(_mul_kp),     __,
+    __,             __,             _(_7_kp),       _(_8_kp),       _(_9_kp),       _(_sub_kp),     __,
+    /*_*/           __,             _(_4_kp),       _(_5_kp),       _(_6_kp),       _(_add_kp),     __,
+    __,             __,             _(_1_kp),       _(_2_kp),       _(_3_kp),       _(_enter_kp),   __,
+                                    __,             __,             _(_dec_del_kp), _(_enter_kp),   __,
+    __,             __,
+    __,
+    __,             __,             _(_0_kp)
+  ),
   ERGODOX_LAYER( // L9: layout switcher
     // left hand
-    POPALL,         PUSH(2),        PUSH(3),        PUSH(4),        PUSH(5),        PUSH(6),        PUSH(7),
+    POPALL,         PUSH(2),        PUSH(3),        PUSH(4),        PUSH(5),        PUSH(6),        UNUSED,
     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
                                                                                     UNUSED,         UNUSED,
                                                                                                     UNUSED,
-                                                                    UNUSED,         UNUSED,         PUSH(8),
+                                                                    UNUSED,         UNUSED,         PUSH(7),
     // right hand
-    BOOTLOADER,     UNUSED,         UNUSED,         UNUSED,         UNUSED,         POPALL,         PUSH(7),
+    BOOTLOADER,     UNUSED,         UNUSED,         UNUSED,         UNUSED,         POPALL,         PUSH(6),
     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
     /*_*/           _(_home),       _(_pageD),      _(_pageU),      _(_end),        UNUSED,         UNUSED,
     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
                                     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
     UNUSED,         UNUSED,
     UNUSED,
-    POP(8),         UNUSED,         UNUSED
+    POP(7),         UNUSED,         UNUSED
   ),
 };
