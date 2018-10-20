@@ -7,41 +7,41 @@ ERGODOX_LAYOUT = {
     // left hand
     _(_esc),        _(_1),          _(_2),          _(_3),          _(_4),          _(_5),          _(_grave),
     _(_tab),        _(_Q),          _(_W),          _(_E),          _(_R),          _(_T),          _(_bracketL),
-    _(_ctrlL),      _(_A),          _(_S),          _(_D),          _(_F),          _(_G),
+    CHORD(9),       _(_A),          _(_S),          _(_D),          _(_F),          _(_G),
     S2CAP(_shiftL), _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          _(_dash),
     _(_ctrlL),      _(_altL),       _(_guiL),       CHORD(8),       CHORD(1),
-                                                                                    _(_tab),        _(_ctrlL),
+                                                                                    _(_esc),        _(_guiL),
                                                                                                     _(_altL),
-                                                                    _(_shiftL),     _(_ctrlL),      _(_guiL),
+                                                                    CHORD(1),       _(_shiftL),     _(_ctrlL),
     // right hand
     _(_backslash),  _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          _(_enter),
     _(_bracketR),   _(_Y),          _(_U),          _(_I),          _(_O),          _(_P),          _(_bs),
     /*_*/           _(_H),          _(_J),          _(_K),          _(_L),          _(_semicolon),  _(_quote),
     _(_equal),      _(_N),          _(_M),          _(_comma),      _(_period),     _(_slash),      S2CAP(_shiftR),
-                                    CHORD(1),       CHORD(8),       _(_guiR),       _(_altR),       _(_ctrlR),
-    _(_ctrlR),      _(_bs),
+                                    _(_bs),         _(_del),        _(_guiR),       _(_altR),       _(_ctrlR),
+    _(_guiR),       _(_tab),
     _(_altR),
-    _(_guiR),       _(_enter),      _(_space)
+    _(_ctrlR),      _(_enter),      _(_space)
   ),
   ERGODOX_LAYER( // L1: symbols and function
     // left hand
-    _(_insert),     _(_F1),         _(_F2),         _(_F3),         _(_F4),         _(_F5),         _(_F11),
-    M(PREV_TRACK),  _(_equal),      S(_equal),      _(_bracketL),   _(_bracketR),   _(_grave),      __,
-    M(PLAY_PAUSE),  S(_2),          _(_backslash),  S(_9),          S(_0),          S(_7),
-    M(NEXT_TRACK),  S(_5),          S(_8),          S(_bracketL),   S(_bracketR),   S(_backslash),  __,
-    __,             __,             __,             __,             CHORD(9),
+    __,             _(_F1),         _(_F2),         _(_F3),         _(_F4),         _(_F5),         _(_F11),
+    __,             _(_equal),      S(_equal),      _(_bracketL),   _(_bracketR),   _(_grave),      __,
+    __,             S(_2),          _(_backslash),  S(_9),          S(_0),          S(_7),
+    __,             S(_5),          S(_8),          S(_bracketL),   S(_bracketR),   S(_backslash),  __,
+    __,             __,             __,             __,             __,
                                                                                     __,             __,
                                                                                                     __,
-                                                                    _(_esc),        __,             __,
+                                                                    __,             __,             __,
     // right hand
-    _(_F12),        _(_F6),         _(_F7),         _(_F8),         _(_F9),         _(_F10),        _(_del),
-    __,             S(_6),          _(_bs),         _(_tab),        S(_3),          S(_1),          _(_volumeU),
-    /*_*/           _(_arrowL),     _(_arrowD),     _(_arrowU),     _(_arrowR),     _(_quote),      _(_mute),
-    __,             S(_grave),      S(_dash),       S(_4),          _(_dash),       S(_quote),      _(_volumeD),
-                                    CHORD(9),       __,             __,             __,             __,
-    __,             _(_del),
+    _(_F12),        _(_F6),         _(_F7),         _(_F8),         _(_F9),         _(_F10),        _(_insert),
+    __,             S(_6),          _(_bs),         _(_tab),        S(_3),          S(_1),          _(_del),
+    /*_*/           _(_arrowL),     _(_arrowD),     _(_arrowU),     _(_arrowR),     _(_quote),      __,
+    __,             S(_grave),      S(_dash),       S(_4),          _(_dash),       S(_quote),      __,
+                                    __,             __,             __,             __,             __,
+    __,             __,
     __,
-    __,             __,             _(_enter)
+    __,             __,             _(_bs)
   ),
   ERGODOX_LAYER( // L2: Maltron
     // left hand
@@ -143,25 +143,25 @@ ERGODOX_LAYOUT = {
     __,
     __,             __,             __
   ),
-  ERGODOX_LAYER( // L7: favors Alt
+  ERGODOX_LAYER( // L7: minimal
     // left hand
-    __,             __,             __,             __,             __,             __,             __,
-    __,             __,             __,             __,             __,             __,             __,
+    UNUSED,         __,             __,             __,             __,             __,             UNUSED,
+    UNUSED,         __,             __,             __,             __,             __,             UNUSED,
     __,             __,             __,             __,             __,             __,
-    __,             __,             __,             __,             __,             __,             __,
-    __,             __,             __,             __,             __,
+    UNUSED,         __,             __,             __,             __,             __,             UNUSED,
+    UNUSED,         UNUSED,         UNUSED,         UNUSED,         __,
                                                                                     __,             __,
-                                                                                                    _(_guiL),
-                                                                    __,             __,             _(_altL),
+                                                                                                    __,
+                                                                    __,             __,             __,
     // right hand
-    __,             __,             __,             __,             __,             __,             __,
-    __,             __,             __,             __,             __,             __,             __,
-    /*_*/           __,             __,             __,             __,             __,             __,
-    __,             __,             __,             __,             __,             __,             __,
-                                    __,             __,             __,             __,             __,
+    UNUSED,         __,             __,             __,             __,             __,             UNUSED,
+    UNUSED,         __,             __,             __,             __,             __,             UNUSED,
+    /*_*/           __,             __,             __,             __,             __,             UNUSED,
+    UNUSED,         __,             __,             __,             __,             __,             UNUSED,
+                                    __,             UNUSED,         UNUSED,         UNUSED,         UNUSED,
     __,             __,
-    _(_guiR),
-    _(_altR),       __,             __
+    __,
+    __,             __,             __
   ),
   ERGODOX_LAYER( // L8: Digits
     // left hand
@@ -185,22 +185,22 @@ ERGODOX_LAYOUT = {
   ),
   ERGODOX_LAYER( // L9: layout switcher
     // left hand
-    POPALL,         PUSH(2),        PUSH(3),        PUSH(4),        PUSH(5),        PUSH(6),        UNUSED,
+    POPALL,         PUSH(2),        PUSH(3),        PUSH(4),        PUSH(5),        PUSH(6),        PUSH(7),
     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
-    UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
-    UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
+    UNUSED,         _(_volumeD),    _(_volumeU),    _(_mute),       UNUSED,         _(_esc),
+    UNUSED,         M(PREV_TRACK),  M(PLAY_PAUSE),  M(NEXT_TRACK),  UNUSED,         UNUSED,         UNUSED,
     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
                                                                                     UNUSED,         UNUSED,
                                                                                                     UNUSED,
-                                                                    UNUSED,         UNUSED,         PUSH(7),
+                                                                    UNUSED,         UNUSED,         UNUSED,
     // right hand
-    BOOTLOADER,     UNUSED,         UNUSED,         UNUSED,         UNUSED,         POPALL,         PUSH(6),
-    UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
+    BOOTLOADER,     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         _(_insert),
+    UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         _(_del),
     /*_*/           _(_home),       _(_pageD),      _(_pageU),      _(_end),        UNUSED,         UNUSED,
     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
                                     UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
     UNUSED,         UNUSED,
     UNUSED,
-    POP(7),         UNUSED,         UNUSED
+    UNUSED,         UNUSED,         UNUSED
   ),
 };
