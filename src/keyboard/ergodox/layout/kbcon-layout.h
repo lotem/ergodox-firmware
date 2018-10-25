@@ -41,7 +41,7 @@ ERGODOX_LAYOUT = {
                                     __,             __,             __,             __,             __,
     __,             __,
     __,
-    __,             __,             _(_bs)
+    __,             __,             __
   ),
   ERGODOX_LAYER( // L2: Maltron
     // left hand
