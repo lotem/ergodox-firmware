@@ -7,21 +7,21 @@ ERGODOX_LAYOUT = {
     // left hand
     _(_esc),        _(_1),          _(_2),          _(_3),          _(_4),          _(_5),          _(_grave),
     _(_tab),        _(_Q),          _(_W),          _(_E),          _(_R),          _(_T),          _(_bracketL),
-    _(_guiL),       _(_A),          _(_S),          _(_D),          _(_F),          _(_G),
+    _(_ctrlL),      _(_A),          _(_S),          _(_D),          _(_F),          _(_G),
     S2CAP(_shiftL), _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          _(_dash),
-    CHORD(9),       CHORD(1),       _(_guiL),       _(_altL),       _(_ctrlL),
-                                                                                    _(_esc),        _(_tab),
-                                                                                                    _(_del),
-                                                                    _(_shiftL),     CHORD(1),       _(_bs),
+    _(_ctrlL),      _(_altL),       _(_guiL),       CHORD(9),       CHORD(1),
+                                                                                    _(_esc),        _(_guiL),
+                                                                                                    _(_altL),
+                                                                    CHORD(1),       _(_shiftL),     _(_ctrlL),
     // right hand
     _(_backslash),  _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          _(_enter),
     _(_bracketR),   _(_Y),          _(_U),          _(_I),          _(_O),          _(_P),          _(_bs),
     /*_*/           _(_H),          _(_J),          _(_K),          _(_L),          _(_semicolon),  _(_quote),
     _(_equal),      _(_N),          _(_M),          _(_comma),      _(_period),     _(_slash),      S2CAP(_shiftR),
-                                    _(_ctrlR),      _(_altR),       _(_guiR),       CHORD(1),       CHORD(9),
-    _(_arrowL),     _(_arrowR),
-    _(_arrowU),
-    _(_arrowD),     _(_enter),      _(_space)
+                                    _(_bs),         _(_del),        _(_guiR),       _(_altR),       _(_ctrlR),
+    _(_guiR),       _(_tab),
+    _(_altR),
+    _(_ctrlR),      _(_enter),      _(_space)
   ),
   ERGODOX_LAYER( // L1: symbols and function
     // left hand
@@ -39,9 +39,9 @@ ERGODOX_LAYOUT = {
     /*_*/           _(_arrowL),     _(_arrowD),     _(_arrowU),     _(_arrowR),     _(_quote),      __,
     __,             S(_grave),      S(_dash),       S(_4),          _(_dash),       S(_quote),      __,
                                     __,             __,             __,             __,             __,
-    _(_home),       _(_end),
-    _(_pageU),
-    _(_pageD),      __,             __
+    __,             __,
+    __,
+    __,             __,             __
   ),
   ERGODOX_LAYER( // L2: Maltron
     // left hand
@@ -149,7 +149,7 @@ ERGODOX_LAYOUT = {
     UNUSED,         __,             __,             __,             __,             __,             UNUSED,
     UNUSED,         __,             __,             __,             __,             __,
     UNUSED,         __,             __,             __,             __,             __,             UNUSED,
-    __,             __,             __,             __,             __,
+    UNUSED,         UNUSED,         UNUSED,         __,             __,
                                                                                     __,             __,
                                                                                                     __,
                                                                     __,             __,             __,
@@ -158,7 +158,7 @@ ERGODOX_LAYOUT = {
     UNUSED,         __,             __,             __,             __,             __,             UNUSED,
     /*_*/           __,             __,             __,             __,             __,             UNUSED,
     UNUSED,         __,             __,             __,             __,             __,             UNUSED,
-                                    __,             __,             __,             __,             __,
+                                    __,             __,             UNUSED,         UNUSED,         UNUSED,
     __,             __,
     __,
     __,             __,             __
@@ -186,16 +186,16 @@ ERGODOX_LAYOUT = {
   ERGODOX_LAYER( // L9: layout switcher & numpad
     // left hand
     POPALL,         PUSH(2),        PUSH(3),        PUSH(4),        PUSH(5),        PUSH(6),        PUSH(7),
-    UNUSED,         UNUSED,         M(PREV_TRACK),  _(_volumeU),    UNUSED,         UNUSED,         UNUSED,
-    UNUSED,         UNUSED,         M(PLAY_PAUSE),  _(_mute),       UNUSED,         UNUSED,
-    UNUSED,         UNUSED,         M(NEXT_TRACK),  _(_volumeD),    UNUSED,         UNUSED,         UNUSED,
-    UNUSED,         UNUSED,         UNUSED,         UNUSED,         UNUSED,
+    UNUSED,         UNUSED,         M(PREV_TRACK),  _(_volumeU),    _(_pageU),      UNUSED,         UNUSED,
+    UNUSED,         _(_home),       M(PLAY_PAUSE),  _(_mute),       _(_end),        _(_esc),
+    UNUSED,         UNUSED,         M(NEXT_TRACK),  _(_volumeD),    _(_pageD),      UNUSED,         UNUSED,
+    UNUSED,         UNUSED,          UNUSED,         UNUSED,         UNUSED,
                                                                                     UNUSED,         UNUSED,
                                                                                                     UNUSED,
                                                                     UNUSED,         UNUSED,         UNUSED,
     // right hand
-    BOOTLOADER,     UNUSED,         _(_numLock_kp), _(_equal_kp),   _(_div_kp),     _(_mul_kp),     UNUSED,
-    UNUSED,         UNUSED,         _(_7_kp),       _(_8_kp),       _(_9_kp),       _(_sub_kp),     UNUSED,
+    BOOTLOADER,     UNUSED,         _(_numLock_kp), _(_equal_kp),   _(_div_kp),     _(_mul_kp),     _(_insert),
+    UNUSED,         UNUSED,         _(_7_kp),       _(_8_kp),       _(_9_kp),       _(_sub_kp),     _(_del),
     /*_*/           UNUSED,         _(_4_kp),       _(_5_kp),       _(_6_kp),       _(_add_kp),     UNUSED,
     UNUSED,         UNUSED,         _(_1_kp),       _(_2_kp),       _(_3_kp),       _(_enter_kp),   UNUSED,
                                     UNUSED,         UNUSED,         _(_dec_del_kp), _(_enter_kp),   UNUSED,
