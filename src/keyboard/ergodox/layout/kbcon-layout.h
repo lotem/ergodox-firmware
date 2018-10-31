@@ -147,7 +147,7 @@ ERGODOX_LAYOUT = {
     // left hand
     UNUSED,         __,             __,             __,             __,             __,             UNUSED,
     UNUSED,         __,             __,             __,             __,             __,             UNUSED,
-    __,             __,             __,             __,             __,             __,
+    UNUSED,         __,             __,             __,             __,             __,
     UNUSED,         __,             __,             __,             __,             __,             UNUSED,
     UNUSED,         UNUSED,         UNUSED,         __,             __,
                                                                                     __,             __,
@@ -156,7 +156,7 @@ ERGODOX_LAYOUT = {
     // right hand
     UNUSED,         __,             __,             __,             __,             __,             UNUSED,
     UNUSED,         __,             __,             __,             __,             __,             UNUSED,
-    /*_*/           __,             __,             __,             __,             __,             CHORD(1),
+    /*_*/           __,             __,             __,             __,             __,             UNUSED,
     UNUSED,         __,             __,             __,             __,             __,             UNUSED,
                                     __,             __,             UNUSED,         UNUSED,         UNUSED,
     __,             __,
