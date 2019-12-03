@@ -7,12 +7,12 @@ ERGODOX_LAYOUT = {
     // left hand
     _(_esc),        _(_1),          _(_2),          _(_3),          _(_4),          _(_5),          _(_grave),
     _(_tab),        _(_Q),          _(_W),          _(_E),          _(_R),          _(_T),          _(_bracketL),
-    _(_ctrlL),      _(_A),          _(_S),          _(_D),          _(_F),          _(_G),
+    _(_esc),        _(_A),          _(_S),          _(_D),          _(_F),          _(_G),
     S2CAP(_shiftL), _(_Z),          _(_X),          _(_C),          _(_V),          _(_B),          _(_dash),
     _(_ctrlL),      _(_altL),       _(_guiL),       CHORD(9),       CHORD(1),
                                                                                     _(_tab),        _(_guiL),
                                                                                                     _(_altL),
-                                                                    _(_shiftL),     _(_ctrlL),      _(_esc),
+                                                                    _(_shiftL),     _(_esc),        _(_ctrlL),
     // right hand
     _(_backslash),  _(_6),          _(_7),          _(_8),          _(_9),          _(_0),          _(_enter),
     _(_bracketR),   _(_Y),          _(_U),          _(_I),          _(_O),          _(_P),          _(_bs),
